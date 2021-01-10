@@ -2,11 +2,11 @@ import React from "react";
 import "./SymbolBox.css";
 import Base from "./lines/Base";
 
-const SymbolBox = () => {
+const SymbolBox = ({num}) => {
   return (
     <div>
       <div className="container">
-        <Base />
+        <Base num={num} />
       </div>
     </div>
   );

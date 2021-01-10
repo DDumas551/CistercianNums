@@ -13,7 +13,7 @@ function App() {
       <Title />
       <Info test={num} />
       <Input value={num} setNum={setNum} />
-      <SymbolBox />
+      <SymbolBox num={num} />
     </div>
   );
 }

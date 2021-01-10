@@ -16,7 +16,41 @@
 
 .base-element {
   position: absolute;
-  bottom: 25px;
-  height: 500px;
+  bottom: 75px;
+  height: 400px;
   border-left: 3px solid black;
+}
+
+.one {
+  position: absolute;
+  top: 75px;
+  left: 199px;
+  width: 133px;
+  border-top: 3px solid black;
+}
+
+.two {
+  position: absolute;
+  top: 175px;
+  left: 199px;
+  width: 133px;
+  border-top: 3px solid black;
+}
+
+.three {
+  position: absolute;
+  top: 122px;
+  left: 181px;
+  width: 133px;
+  border-top: 3px solid black;
+  transform: rotate(45deg);
+}
+
+.four {
+  position: absolute;
+  top: 122px;
+  left: 181px;
+  width: 133px;
+  border-top: 3px solid black;
+  transform: rotate(-45deg);
 }
