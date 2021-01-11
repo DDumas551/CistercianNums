@@ -31,7 +31,7 @@
 
 .two {
   position: absolute;
-  top: 175px;
+  top: 200px;
   left: 199px;
   width: 133px;
   border-top: 3px solid black;
@@ -39,18 +39,18 @@
 
 .three {
   position: absolute;
-  top: 122px;
-  left: 181px;
-  width: 133px;
+  top: 132px;
+  left: 176px;
+  width: 160px;
   border-top: 3px solid black;
   transform: rotate(45deg);
 }
 
 .four {
   position: absolute;
-  top: 122px;
-  left: 181px;
-  width: 133px;
+  top: 132px;
+  left: 176px;
+  width: 160px;
   border-top: 3px solid black;
   transform: rotate(-45deg);
 }
