@@ -11,7 +11,9 @@ const Input = ({ value, setNum }) => {
           type="number"
           name="input"
           value={value}
-          //   onChange={setNum(value)}
+          min="1"
+          max="9999"
+          step="1"
           onChange={handleChange}
         />
       </label>

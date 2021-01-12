@@ -15,17 +15,21 @@ const Base = ({ num }) => {
       }
     }
   }
-  return (
-    <div className="base">
-      <div className="base-element" />
-      {keys.map((key, i) => {
-        if (build[i]) {
-          return <div className={values[i]} key={key} />;
-        }
-        return <div />;
-      })}
-    </div>
-  );
+  if (!num || num < 1 || num > 9999) {
+    return <div>No symbol for that number</div>;
+  } else {
+    return (
+      <div className="base">
+        <div className="base-element" />
+        {keys.map((key, i) => {
+          if (build[i]) {
+            return <div className={values[i]} key={key} />;
+          }
+          return <div />;
+        })}
+      </div>
+    );
+  }
 };
 
 export default Base;
