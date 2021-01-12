@@ -1,7 +1,7 @@
 import React from "react";
 
 const Info = () => {
-  return <div>Enter a numer or press play!</div>;
+  return <div>Enter a number!</div>;
 };
 
 export default Info;
