@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Info = () => {
-  return <div>Lorem ipsum ipsum lol stuff</div>;
+  return <div>Enter a numer or press play!</div>;
 };
 
 export default Info;

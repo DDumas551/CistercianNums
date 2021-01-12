@@ -2,7 +2,6 @@ import React from "react";
 import numberGroup from "../numbers";
 
 const Base = ({ num }) => {
-  const number = 4;
   const build = new Array(36).fill(false);
   const keys = Object.keys(numberGroup);
   const values = Object.values(numberGroup);
@@ -16,13 +15,12 @@ const Base = ({ num }) => {
       }
     }
   }
-  console.log(build);
   return (
     <div className="base">
       <div className="base-element" />
       {keys.map((key, i) => {
         if (build[i]) {
-          return <div className={values[i]} key={i} />;
+          return <div className={values[i]} key={key} />;
         }
       })}
     </div>

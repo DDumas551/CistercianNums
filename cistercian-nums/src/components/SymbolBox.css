@@ -24,33 +24,407 @@
 .one {
   position: absolute;
   top: 75px;
-  left: 199px;
+  left: 200px;
   width: 133px;
   border-top: 3px solid black;
 }
 
 .two {
   position: absolute;
-  top: 200px;
-  left: 199px;
+  top: 208px;
+  left: 202px;
   width: 133px;
   border-top: 3px solid black;
 }
 
 .three {
   position: absolute;
-  top: 132px;
-  left: 176px;
-  width: 160px;
-  border-top: 3px solid black;
-  transform: rotate(45deg);
+  top: 75px;
+  left: 202px;
+  width: 133px;
+  height: 133px;
+  background: linear-gradient(
+    to bottom left,
+    white,
+    white 50%,
+    black 52%,
+    white 27%
+  );
 }
 
 .four {
   position: absolute;
-  top: 132px;
-  left: 176px;
-  width: 160px;
+  top: 78px;
+  left: 202px;
+  width: 133px;
+  height: 133px;
+  background: linear-gradient(
+    to top left,
+    white,
+    white 50%,
+    black 52%,
+    white 27%
+  );
+}
+
+.five {
+  position: absolute;
+  top: 75px;
+  left: 202px;
+  width: 133px;
+  height: 133px;
   border-top: 3px solid black;
-  transform: rotate(-45deg);
+  background: linear-gradient(
+    to top left,
+    white,
+    white 50%,
+    black 52%,
+    white 27%
+  );
+}
+
+.six {
+  position: absolute;
+  top: 78px;
+  left: 199px;
+  height: 133px;
+  width: 133px;
+  border-right: 3px solid black;
+}
+
+.seven {
+  position: absolute;
+  top: 75px;
+  left: 199px;
+  height: 133px;
+  width: 133px;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.eight {
+  position: absolute;
+  top: 75px;
+  left: 199px;
+  height: 133px;
+  width: 133px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.nine {
+  position: absolute;
+  top: 75px;
+  left: 199px;
+  height: 130px;
+  width: 133px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.ten {
+  position: absolute;
+  top: 75px;
+  left: 67px;
+  width: 133px;
+  border-top: 3px solid black;
+}
+
+.twenty {
+  position: absolute;
+  top: 208px;
+  left: 67px;
+  width: 133px;
+  border-top: 3px solid black;
+}
+
+.thirty {
+  position: absolute;
+  top: 75px;
+  left: 66px;
+  width: 133px;
+  height: 133px;
+  background: linear-gradient(
+    to top left,
+    white 47%,
+    black 50%,
+    white 50%,
+    white 0%
+  );
+}
+
+.forty {
+  position: absolute;
+  top: 78px;
+  left: 66px;
+  width: 133px;
+  height: 133px;
+  background: linear-gradient(
+    to bottom left,
+    white 47%,
+    black 50%,
+    white 0%,
+    white 1%
+  );
+}
+
+.fifty {
+  position: absolute;
+  top: 75px;
+  left: 66px;
+  width: 133px;
+  height: 133px;
+  border-top: 3px solid black;
+  background: linear-gradient(
+    to bottom left,
+    white 47%,
+    black 50%,
+    white 0%,
+    white 1%
+  );
+}
+
+.sixty {
+  position: absolute;
+  top: 75px;
+  left: 65px;
+  height: 133px;
+  width: 133px;
+  border-left: 3px solid black;
+}
+
+.seventy {
+  position: absolute;
+  top: 75px;
+  left: 63px;
+  height: 133px;
+  width: 133px;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.eighty {
+  position: absolute;
+  top: 75px;
+  left: 63px;
+  height: 133px;
+  width: 133px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.ninety {
+  position: absolute;
+  top: 75px;
+  left: 63px;
+  height: 130px;
+  width: 133px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.oneHundred {
+  position: absolute;
+  bottom: 75px;
+  left: 199px;
+  width: 133px;
+  border-top: 3px solid black;
+}
+
+.twoHundred {
+  position: absolute;
+  bottom: 211px;
+  left: 199px;
+  width: 133px;
+  border-top: 3px solid black;
+}
+
+.threeHundred {
+  position: absolute;
+  bottom: 75px;
+  left: 202px;
+  width: 133px;
+  height: 133px;
+  background: linear-gradient(
+    to top left,
+    white,
+    white 50%,
+    black 52%,
+    white 27%
+  );
+}
+
+.fourHundred {
+  position: absolute;
+  bottom: 78px;
+  left: 202px;
+  width: 133px;
+  height: 133px;
+  background: linear-gradient(
+    to bottom left,
+    white,
+    white 50%,
+    black 52%,
+    white 27%
+  );
+}
+
+.fiveHundred {
+  position: absolute;
+  bottom: 75px;
+  left: 202px;
+  width: 133px;
+  height: 133px;
+  border-bottom: 3px solid black;
+  background: linear-gradient(
+    to bottom left,
+    white,
+    white 50%,
+    black 52%,
+    white 27%
+  );
+}
+
+.sixHundred {
+  position: absolute;
+  bottom: 75px;
+  left: 199px;
+  height: 133px;
+  width: 133px;
+  border-right: 3px solid black;
+}
+
+.sevenHundred {
+  position: absolute;
+  bottom: 75px;
+  left: 199px;
+  height: 133px;
+  width: 133px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.eightHundred {
+  position: absolute;
+  bottom: 78px;
+  left: 199px;
+  height: 133px;
+  width: 133px;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.nineHundred {
+  position: absolute;
+  bottom: 75px;
+  left: 199px;
+  height: 133px;
+  width: 133px;
+  border-right: 3px solid black;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.oneThousand {
+  position: absolute;
+  bottom: 75px;
+  left: 66px;
+  width: 133px;
+  border-top: 3px solid black;
+}
+
+.twoThousand {
+  position: absolute;
+  bottom: 208px;
+  left: 66px;
+  width: 133px;
+  border-top: 3px solid black;
+}
+
+.threeThousand {
+  position: absolute;
+  bottom: 75px;
+  left: 66px;
+  width: 133px;
+  height: 133px;
+  background: linear-gradient(
+    to bottom left,
+    white 48%,
+    black,
+    white 50%,
+    white 27%
+  );
+}
+
+.fourThousand {
+  position: absolute;
+  bottom: 75px;
+  left: 66px;
+  width: 133px;
+  height: 133px;
+  background: linear-gradient(
+    to top left,
+    white 48%,
+    black 48%,
+    white 50%,
+    white 27%
+  );
+}
+
+.fiveThousand {
+  position: absolute;
+  bottom: 75px;
+  left: 66px;
+  width: 133px;
+  height: 133px;
+  border-bottom: 3px solid black;
+  background: linear-gradient(
+    to top left,
+    white 48%,
+    black 48%,
+    white 50%,
+    white 27%
+  );
+}
+
+.sixThousand {
+  position: absolute;
+  bottom: 75px;
+  left: 63px;
+  height: 133px;
+  width: 133px;
+  border-left: 3px solid black;
+}
+
+.sevenThousand {
+  position: absolute;
+  bottom: 75px;
+  left: 63px;
+  height: 133px;
+  width: 133px;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.eightThousand {
+  position: absolute;
+  bottom: 78px;
+  left: 63px;
+  height: 133px;
+  width: 133px;
+  border-left: 3px solid black;
+  border-top: 3px solid black;
+}
+
+.nineThousand {
+  position: absolute;
+  bottom: 78px;
+  left: 63px;
+  height: 133px;
+  width: 133px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
 }

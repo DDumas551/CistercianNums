@@ -11,8 +11,18 @@ function App() {
   return (
     <div className="App">
       <Title />
-      <Info test={num} />
+      <Info />
       <Input value={num} setNum={setNum} />
+      <p>
+        Info about the numerals
+        <br />
+        <a
+          href="https://en.wikipedia.org/wiki/Cistercian_numerals"
+          target="_blank"
+        >
+          Wikipedia
+        </a>
+      </p>
       <SymbolBox num={num} />
     </div>
   );
