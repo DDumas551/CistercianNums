@@ -22,6 +22,7 @@ const Base = ({ num }) => {
         if (build[i]) {
           return <div className={values[i]} key={key} />;
         }
+        return <div />;
       })}
     </div>
   );

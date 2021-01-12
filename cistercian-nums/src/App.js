@@ -19,6 +19,7 @@ function App() {
         <a
           href="https://en.wikipedia.org/wiki/Cistercian_numerals"
           target="_blank"
+          rel="noreferrer"
         >
           Wikipedia
         </a>
